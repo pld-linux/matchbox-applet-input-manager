@@ -1,0 +1,17 @@
+--- mb-applet-input-manager-0.6/mbinputmgr.desktop.orig	2004-12-02 18:05:28.000000000 +0100
++++ mb-applet-input-manager-0.6/mbinputmgr.desktop	2006-12-27 15:36:31.272114517 +0100
+@@ -1,8 +1,12 @@
+ [Desktop Entry]
++Encoding=UTF-8
+ Name=Input Manager
++Name[pl]=Zarządca wejścia
+ Comment=Input Manager
++Comment[pl]=Zarządca wejścia
+ Exec=mbinputmgr
+ Type=PanelApp
++Terminal=false
+ Icon=mbinputmgr.png
+-Categories=Panel;Utility;MB
+-
++Categories=Applet;Utility;
++# vi:encoding=utf-8
