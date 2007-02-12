@@ -1,5 +1,5 @@
 Summary:	Matchbox applet for managing software input methods
-Summary(pl):	Aplet ¶rodowiska Matchbox do zarz±dzania programowymi metodami wprowadzania
+Summary(pl.UTF-8):   Aplet Å›rodowiska Matchbox do zarzÄ…dzania programowymi metodami wprowadzania
 Name:		matchbox-applet-input-manager
 Version:	0.6
 Release:	1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Matchbox applet for managing software input methods.
 
-%description -l pl
-Aplet ¶rodowiska Matchbox do zarz±dzania programowymi metodami
+%description -l pl.UTF-8
+Aplet Å›rodowiska Matchbox do zarzÄ…dzania programowymi metodami
 wprowadzania.
 
 %prep
