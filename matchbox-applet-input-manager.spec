@@ -5,10 +5,10 @@ Version:	0.6
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
-Source0:	http://projects.o-hand.com/matchbox/sources/mb-applet-input-manager/%{version}/mb-applet-input-manager-%{version}.tar.bz2
+Source0:	http://downloads.yoctoproject.org/releases/matchbox/mb-applet-input-manager/%{version}/mb-applet-input-manager-%{version}.tar.bz2
 # Source0-md5:	8a7ac22fdbbc7d3fdbfd0d7e98bb0de0
 Patch0:		%{name}-desktop.patch
-URL:		http://projects.o-hand.com/matchbox/
+URL:		https://www.yoctoproject.org/software-item/matchbox/
 BuildRequires:	libmatchbox-devel
 BuildRequires:	xorg-lib-libXext-devel
 BuildRequires:	pkgconfig
