@@ -23,7 +23,7 @@ wprowadzania.
 
 %prep
 %setup -q -n mb-applet-input-manager-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %configure
